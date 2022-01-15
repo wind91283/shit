@@ -8808,7 +8808,7 @@ ChatScript.createNewMessage("Lucid","Build: BETA",MainUIColor,Color3.new(1,1,1),
 
 ChatScript.moveOldMessages()
 
-ChatScript.createNewMessage("Lucid","Version: 0.1.5",MainUIColor,Color3.new(1,1,1),0.01,nil)	
+ChatScript.createNewMessage("Lucid","Version: 1.0.0",MainUIColor,Color3.new(1,1,1),0.01,nil)	
 
 ChatScript.moveOldMessages()
 
