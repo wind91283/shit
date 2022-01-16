@@ -174,7 +174,7 @@ function library:New(name)
     TextLabel.Position = UDim2.new(0, 5, 0.300000012, 0)
     TextLabel.Size = UDim2.new(0, 200, 0, 20)
     TextLabel.ZIndex = 2
-    TextLabel.Font = Enum.Font.RobotoMono
+    TextLabel.Font = Enum.Font.GothamBold
     TextLabel.Text = "keybinds"
     TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
     TextLabel.TextSize = 15.000
@@ -206,7 +206,7 @@ function library:New(name)
     TextLabel.BorderColor3 = Color3.fromRGB(145, 23, 195)
     TextLabel.Size = UDim2.new(0, 200, 0, 20)
     TextLabel.ZIndex = 2
-    TextLabel.Font = Enum.Font.RobotoMono
+    TextLabel.Font = Enum.Font.GothamBold
     TextLabel.Text = ">"..text
     TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
     TextLabel.TextSize = 14.000
@@ -267,8 +267,8 @@ function library:New(name)
 	TextLabel.AnchorPoint = Vector2.new(0.5, 0)
 	TextLabel.Position = UDIM2(0.5, 0, 0, 0) 
 	TextLabel.Size = UDIM2(0, 0, 0, 29) 
-	TextLabel.Size = UDIM2(0, txt:GetTextSize(name, 15, Enum.Font.RobotoMono, Vec2(700, TextLabel.AbsoluteSize.Y)).X, 0, 29) 
-	TextLabel.Font = Enum.Font.RobotoMono 
+	TextLabel.Size = UDIM2(0, txt:GetTextSize(name, 15, Enum.Font.GothamBold, Vec2(700, TextLabel.AbsoluteSize.Y)).X, 0, 29) 
+	TextLabel.Font = Enum.Font.GothamBold 
 	TextLabel.Text = name 
 	TextLabel.TextColor3 = COL3RGB(255, 255, 255) 
 	TextLabel.TextSize = 15.000 
@@ -305,8 +305,8 @@ function library:New(name)
 		local TextButton = INST("TextButton") 
 		TextButton.BackgroundColor3 = COL3RGB(255, 255, 255) 
 		TextButton.BackgroundTransparency = 1 
-		TextButton.Size = UDIM2(0, txt:GetTextSize(text, 15, Enum.Font.RobotoMono, Vec2(700,700)).X+12, 1, 0) 
-		TextButton.Font = Enum.Font.RobotoMono 
+		TextButton.Size = UDIM2(0, txt:GetTextSize(text, 15, Enum.Font.GothamBold, Vec2(700,700)).X+12, 1, 0) 
+		TextButton.Font = Enum.Font.GothamBold 
 		TextButton.Text = text 
 		TextButton.TextColor3 = COL3RGB(255, 255, 255) 
 		TextButton.TextSize = 15.000 
@@ -400,7 +400,7 @@ function library:New(name)
 			SectionText.Position = UDIM2(0, 0, 0, -12) 
 			SectionText.Size = UDIM2(0, 280, 0, 19) 
 			SectionText.ZIndex = 2 
-			SectionText.Font = Enum.Font.RobotoMono 
+			SectionText.Font = Enum.Font.GothamBold 
 			SectionText.Text = text 
 			SectionText.TextStrokeTransparency = 0
 			SectionText.TextColor3 = COL3RGB(255, 255, 255) 
@@ -468,8 +468,8 @@ function library:New(name)
 				TextButton.Parent = sectiontabs 
 				TextButton.BackgroundColor3 = COL3RGB(255, 255, 255) 
 				TextButton.BackgroundTransparency = 1.000 
-				TextButton.Size = UDIM2(0, txt:GetTextSize(text, 14, Enum.Font.RobotoMono, Vec2(700,700)).X + 2, 1, 0) 
-				TextButton.Font = Enum.Font.RobotoMono 
+				TextButton.Size = UDIM2(0, txt:GetTextSize(text, 14, Enum.Font.GothamBold, Vec2(700,700)).X + 2, 1, 0) 
+				TextButton.Font = Enum.Font.GothamBold 
 				TextButton.Text = text 
 				TextButton.TextColor3 = COL3RGB(200, 200, 200) 
 				TextButton.TextSize = 14.000 
@@ -536,7 +536,7 @@ function library:New(name)
 						TextLabel.BorderColor3 = COL3RGB(0, 0, 0) 
 						TextLabel.Position = UDIM2(0, 5, 0, 0) 
 						TextLabel.Size = UDIM2(-0.21714285, 208, 1, 0) 
-						TextLabel.Font = Enum.Font.RobotoMono 
+						TextLabel.Font = Enum.Font.GothamBold 
 						TextLabel.Text = "..." 
 						TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 						TextLabel.TextSize = 14.000 
@@ -635,7 +635,7 @@ function library:New(name)
 								TextLabel.BorderColor3 = COL3RGB(25, 25, 25) 
 								TextLabel.Position = UDIM2(0, 5, 0, -1) 
 								TextLabel.Size = UDIM2(-0.21714285, 208, 1, 0) 
-								TextLabel.Font = Enum.Font.RobotoMono 
+								TextLabel.Font = Enum.Font.GothamBold 
 								TextLabel.Text = v 
 								TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 								TextLabel.TextSize = 14.000 
@@ -704,7 +704,7 @@ function library:New(name)
 						TextLabel_3.BackgroundTransparency = 1.000 
 						TextLabel_3.Position = UDIM2(0, 32, 0, -1) 
 						TextLabel_3.Size = UDIM2(0.111913361, 208, 0.382215232, 0) 
-						TextLabel_3.Font = Enum.Font.RobotoMono 
+						TextLabel_3.Font = Enum.Font.GothamBold 
 						TextLabel_3.Text = text 
 						TextLabel_3.TextColor3 = COL3RGB(200, 200, 200) 
 						TextLabel_3.TextSize = 14.000 
@@ -777,7 +777,7 @@ function library:New(name)
 						TextLabel.BackgroundTransparency = 1.000 
 						TextLabel.Position = UDIM2(0, 32, 0, -1) 
 						TextLabel.Size = UDIM2(0.111913361, 208, 1, 0) 
-						TextLabel.Font = Enum.Font.RobotoMono 
+						TextLabel.Font = Enum.Font.GothamBold 
 						TextLabel.Text = text 
 						TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 						TextLabel.TextSize = 14.000 
@@ -823,9 +823,9 @@ function library:New(name)
 							Keybind.Position = UDIM2(0, 270, 0.5, -6) 
 							Keybind.Text = "NONE" 
 							Keybind.Size = UDIM2(0, 43, 0, 12) 
-							Keybind.Size = UDIM2(0,txt:GetTextSize("NONE", 14, Enum.Font.RobotoMono, Vec2(700, 12)).X + 5,0, 12) 
+							Keybind.Size = UDIM2(0,txt:GetTextSize("NONE", 14, Enum.Font.GothamBold, Vec2(700, 12)).X + 5,0, 12) 
 							Keybind.AutoButtonColor = false 
-							Keybind.Font = Enum.Font.RobotoMono 
+							Keybind.Font = Enum.Font.GothamBold 
 							Keybind.TextColor3 = COL3RGB(200, 200, 200) 
 							Keybind.TextSize = 14.000 
 							Keybind.AnchorPoint = Vec2(1,0) 
@@ -865,7 +865,7 @@ function library:New(name)
 							Hold.Position = UDIM2(-3.03289485, 231, 0.115384616, -6) 
 							Hold.Size = UDIM2(1, 0, 0, 16) 
 							Hold.AutoButtonColor = false 
-							Hold.Font = Enum.Font.RobotoMono 
+							Hold.Font = Enum.Font.GothamBold 
 							Hold.Text = "Hold" 
 							Hold.TextColor3 = COL3RGB(200, 200, 200) 
 							Hold.TextSize = 14.000 
@@ -879,7 +879,7 @@ function library:New(name)
 							Toggle.Position = UDIM2(-3.03289485, 231, 0.115384616, -6) 
 							Toggle.Size = UDIM2(1, 0, 0, 16) 
 							Toggle.AutoButtonColor = false 
-							Toggle.Font = Enum.Font.RobotoMono 
+							Toggle.Font = Enum.Font.GothamBold 
 							Toggle.Text = "Toggle" 
 							Toggle.TextColor3 = COL3RGB(200, 200, 200) 
 							Toggle.TextSize = 14.000 
@@ -896,7 +896,7 @@ function library:New(name)
 										end 
 										for _,button in pairs(Frame:GetChildren()) do 
 											if button:IsA("TextButton") and button.Text ~= Element.value.Type then 
-												button.Font = Enum.Font.RobotoMono 
+												button.Font = Enum.Font.GothamBold 
 												library:Tween(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {TextColor3 = COL3RGB(200,200,200)}) 
 											end 
 										end 
@@ -922,7 +922,7 @@ function library:New(name)
 									wait() 
 									binding = true 
 									Keybind.Text = "..." 
-									Keybind.Size = UDIM2(0,txt:GetTextSize("...", 14, Enum.Font.RobotoMono, Vec2(700, 12)).X + 4,0, 12) 
+									Keybind.Size = UDIM2(0,txt:GetTextSize("...", 14, Enum.Font.GothamBold, Vec2(700, 12)).X + 4,0, 12) 
 								end 
 							end) 
 							Keybind.MouseButton2Down:Connect(function() 
@@ -955,11 +955,11 @@ function library:New(name)
 								if binding then 
 									binding = false 
 									Keybind.Text = input.KeyCode.Name ~= "Unknown" and input.KeyCode.Name:upper() or input.UserInputType.Name:upper() 
-									Keybind.Size = UDIM2(0,txt:GetTextSize(Keybind.Text, 14, Enum.Font.RobotoMono, Vec2(700, 12)).X + 5,0, 12) 
+									Keybind.Size = UDIM2(0,txt:GetTextSize(Keybind.Text, 14, Enum.Font.GothamBold, Vec2(700, 12)).X + 5,0, 12) 
 									Element.value.Key = input.KeyCode.Name ~= "Unknown" and input.KeyCode.Name or input.UserInputType.Name 
 									if input.KeyCode.Name == "Backspace" then 
 										Keybind.Text = "NONE" 
-										Keybind.Size = UDIM2(0,txt:GetTextSize(Keybind.Text, 14, Enum.Font.RobotoMono, Vec2(700, 12)).X + 4,0, 12) 
+										Keybind.Size = UDIM2(0,txt:GetTextSize(Keybind.Text, 14, Enum.Font.GothamBold, Vec2(700, 12)).X + 4,0, 12) 
 										Element.value.Key = nil 
 									end 
 								else 
@@ -1079,7 +1079,7 @@ function library:New(name)
 						TextLabel.BackgroundTransparency = 1.000 
 						TextLabel.Position = UDIM2(0, 32, 0, -1) 
 						TextLabel.Size = UDIM2(0.111913361, 208, 1, 0) 
-						TextLabel.Font = Enum.Font.RobotoMono 
+						TextLabel.Font = Enum.Font.GothamBold 
 						TextLabel.Text = text 
 						TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 						TextLabel.TextSize = 14.000 
@@ -1150,7 +1150,7 @@ function library:New(name)
 						TextLabel.BackgroundTransparency = 1.000 
 						TextLabel.Position = UDIM2(0, 32, 0, -1) 
 						TextLabel.Size = UDIM2(0.111913361, 208, 1, 0) 
-						TextLabel.Font = Enum.Font.RobotoMono 
+						TextLabel.Font = Enum.Font.GothamBold 
 						TextLabel.Text = text 
 						TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 						TextLabel.TextSize = 14.000 
@@ -1185,7 +1185,7 @@ function library:New(name)
 						ColorP.Position = UDIM2(0, 270, 0.5, -4) 
 						ColorP.Size = UDIM2(0, 18, 0, 8) 
 						ColorP.AutoButtonColor = false 
-						ColorP.Font = Enum.Font.RobotoMono 
+						ColorP.Font = Enum.Font.GothamBold 
 						ColorP.Text = "" 
 						ColorP.TextColor3 = COL3RGB(200, 200, 200) 
 						ColorP.TextSize = 14.000 
@@ -1408,7 +1408,7 @@ function library:New(name)
 						TextLabel.BackgroundTransparency = 1.000 
 						TextLabel.Position = UDIM2(0, 32, 0, -1) 
 						TextLabel.Size = UDIM2(0.111913361, 208, 1, 0) 
-						TextLabel.Font = Enum.Font.RobotoMono 
+						TextLabel.Font = Enum.Font.GothamBold 
 						TextLabel.Text = text 
 						TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 						TextLabel.TextSize = 14.000 
@@ -1443,7 +1443,7 @@ function library:New(name)
 						ColorP.Position = UDIM2(0, 270, 0.5, -4) 
 						ColorP.Size = UDIM2(0, 18, 0, 8) 
 						ColorP.AutoButtonColor = false 
-						ColorP.Font = Enum.Font.RobotoMono 
+						ColorP.Font = Enum.Font.GothamBold 
 						ColorP.Text = "" 
 						ColorP.TextColor3 = COL3RGB(200, 200, 200) 
 						ColorP.TextSize = 14.000 
@@ -1728,7 +1728,7 @@ function library:New(name)
 						TextLabel.BorderColor3 = COL3RGB(30, 30, 30) 
 						TextLabel.Position = UDIM2(0, 5, 0, 0) 
 						TextLabel.Size = UDIM2(-0.21714285, 208, 1, 0) 
-						TextLabel.Font = Enum.Font.RobotoMono 
+						TextLabel.Font = Enum.Font.GothamBold 
 						TextLabel.Text = Element.value.Dropdown 
 						TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 						TextLabel.TextSize = 14.000 
@@ -1791,7 +1791,7 @@ function library:New(name)
 								TextLabel.BorderColor3 = COL3RGB(30, 30, 30) 
 								TextLabel.Position = UDIM2(0, 5, 0, -1) 
 								TextLabel.Size = UDIM2(-0.21714285, 208, 1, 0) 
-								TextLabel.Font = Enum.Font.RobotoMono 
+								TextLabel.Font = Enum.Font.GothamBold 
 								TextLabel.Text = v 
 								TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 								TextLabel.TextSize = 14.000 
@@ -1836,7 +1836,7 @@ function library:New(name)
 						TextLabel_3.BackgroundTransparency = 1.000 
 						TextLabel_3.Position = UDIM2(0, 32, 0, -1) 
 						TextLabel_3.Size = UDIM2(0.111913361, 208, 0.382215232, 0) 
-						TextLabel_3.Font = Enum.Font.RobotoMono 
+						TextLabel_3.Font = Enum.Font.GothamBold 
 						TextLabel_3.Text = text 
 						TextLabel_3.TextColor3 = COL3RGB(200, 200, 200) 
 						TextLabel_3.TextSize = 14.000 
@@ -1894,7 +1894,7 @@ function library:New(name)
 						TextLabel.BackgroundTransparency = 1.000 
 						TextLabel.Position = UDIM2(0, 32, 0, -2) 
 						TextLabel.Size = UDIM2(0, 100, 0, 15) 
-						TextLabel.Font = Enum.Font.RobotoMono 
+						TextLabel.Font = Enum.Font.GothamBold 
 						TextLabel.Text = text 
 						TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 						TextLabel.TextSize = 14.000 
@@ -1927,7 +1927,7 @@ function library:New(name)
 						Value.BackgroundTransparency = 1.000 
 						Value.Position = UDIM2(0, 150, 0, -1) 
 						Value.Size = UDIM2(0, 55, 0, 15) 
-						Value.Font = Enum.Font.RobotoMono 
+						Value.Font = Enum.Font.GothamBold 
 						Value.Text = "50" 
 						Value.TextColor3 = COL3RGB(200, 200, 200) 
 						Value.TextSize = 14.000 
@@ -2017,7 +2017,7 @@ function library:New(name)
 						TextLabel.BackgroundTransparency = 1.000 
 						TextLabel.BorderColor3 = COL3RGB(30, 30, 30) 
 						TextLabel.Size = UDIM2(1, 0, 1, 0) 
-						TextLabel.Font = Enum.Font.RobotoMono 
+						TextLabel.Font = Enum.Font.GothamBold 
 						TextLabel.Text = text 
 						TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 						TextLabel.TextSize = 14.000 
@@ -2089,7 +2089,7 @@ function library:New(name)
 			SectionText.Position = UDIM2(0, 0, 0, -12) 
 			SectionText.Size = UDIM2(0, 280, 0, 19) 
 			SectionText.ZIndex = 2 
-			SectionText.Font = Enum.Font.RobotoMono 
+			SectionText.Font = Enum.Font.GothamBold 
 			SectionText.Text = text 
 			SectionText.TextColor3 = COL3RGB(255, 255, 255) 
 			SectionText.TextStrokeTransparency = 0
@@ -2185,7 +2185,7 @@ function library:New(name)
 					TextLabel.BorderColor3 = COL3RGB(30, 30, 30) 
 					TextLabel.Position = UDIM2(0, 5, 0, 0) 
 					TextLabel.Size = UDIM2(-0.21714285, 208, 1, 0) 
-					TextLabel.Font = Enum.Font.RobotoMono 
+					TextLabel.Font = Enum.Font.GothamBold 
 					TextLabel.Text = "lol" 
 					TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 					TextLabel.TextSize = 14.000 
@@ -2253,7 +2253,7 @@ function library:New(name)
 							TextLabel.BorderColor3 = COL3RGB(30, 30, 30)      
 							TextLabel.Position = UDIM2(0, 5, 0, -1)      
 							TextLabel.Size = UDIM2(-0.21714285, 208, 1, 0)      
-							TextLabel.Font = Enum.Font.RobotoMono      
+							TextLabel.Font = Enum.Font.GothamBold      
 							TextLabel.Text = v      
 							TextLabel.TextColor3 = COL3RGB(200, 200, 200)      
 							TextLabel.TextSize = 14.000      
@@ -2339,7 +2339,7 @@ function library:New(name)
 								TextLabel.BorderColor3 = COL3RGB(30, 30, 30)      
 								TextLabel.Position = UDIM2(0, 4, 0, -1)      
 								TextLabel.Size = UDIM2(1, 1, 1, 1)      
-								TextLabel.Font = Enum.Font.RobotoMono      
+								TextLabel.Font = Enum.Font.GothamBold      
 								TextLabel.Text = v      
 								TextLabel.TextColor3 = COL3RGB(200, 200, 200)      
 								TextLabel.TextSize = 14.000      
@@ -2391,7 +2391,7 @@ function library:New(name)
 					TextLabel_3.BackgroundTransparency = 1.000      
 					TextLabel_3.Position = UDIM2(0, 32, 0, -1)      
 					TextLabel_3.Size = UDIM2(0.111913361, 208, 0.382215232, 0)      
-					TextLabel_3.Font = Enum.Font.RobotoMono      
+					TextLabel_3.Font = Enum.Font.GothamBold      
 					TextLabel_3.Text = text      
 					TextLabel_3.TextColor3 = COL3RGB(200, 200, 200)      
 					TextLabel_3.TextSize = 14.000      
@@ -2519,7 +2519,7 @@ function library:New(name)
 						TextLabel.BorderColor3 = COL3RGB(30, 30, 30)      
 						TextLabel.Position = UDIM2(0, 4, 0, -1)      
 						TextLabel.Size = UDIM2(1, 1, 1, 1)      
-						TextLabel.Font = Enum.Font.RobotoMono      
+						TextLabel.Font = Enum.Font.GothamBold      
 						TextLabel.Text = v      
 						TextLabel.TextColor3 = COL3RGB(200, 200, 200)      
 						TextLabel.TextSize = 14.000      
@@ -2610,7 +2610,7 @@ function library:New(name)
 					TextLabel.BorderColor3 = COL3RGB(30, 30, 30)      
 					TextLabel.Position = UDIM2(0, 5, 0, 0)      
 					TextLabel.Size = UDIM2(-0.21714285, 208, 1, 0)      
-					TextLabel.Font = Enum.Font.RobotoMono      
+					TextLabel.Font = Enum.Font.GothamBold      
 					TextLabel.Text = "..."      
 					TextLabel.TextColor3 = COL3RGB(200, 200, 200)      
 					TextLabel.TextSize = 14.000      
@@ -2713,7 +2713,7 @@ function library:New(name)
 							TextLabel.BorderColor3 = COL3RGB(30, 30, 30)      
 							TextLabel.Position = UDIM2(0, 5, 0, -1)      
 							TextLabel.Size = UDIM2(-0.21714285, 208, 1, 0)      
-							TextLabel.Font = Enum.Font.RobotoMono      
+							TextLabel.Font = Enum.Font.GothamBold      
 							TextLabel.Text = v      
 							TextLabel.TextColor3 = COL3RGB(200, 200, 200)      
 							TextLabel.TextSize = 14.000      
@@ -2782,7 +2782,7 @@ function library:New(name)
 					TextLabel_3.BackgroundTransparency = 1.000      
 					TextLabel_3.Position = UDIM2(0, 32, 0, -1)      
 					TextLabel_3.Size = UDIM2(0.111913361, 208, 0.382215232, 0)      
-					TextLabel_3.Font = Enum.Font.RobotoMono      
+					TextLabel_3.Font = Enum.Font.GothamBold      
 					TextLabel_3.Text = text      
 					TextLabel_3.TextColor3 = COL3RGB(200, 200, 200)      
 					TextLabel_3.TextSize = 14.000      
@@ -2853,7 +2853,7 @@ function library:New(name)
 					TextLabel.BackgroundTransparency = 1.000      
 					TextLabel.Position = UDIM2(0, 32, 0, -1)      
 					TextLabel.Size = UDIM2(0.111913361, 208, 1, 0)      
-					TextLabel.Font = Enum.Font.RobotoMono      
+					TextLabel.Font = Enum.Font.GothamBold      
 					TextLabel.Text = text      
 					TextLabel.TextColor3 = COL3RGB(200, 200, 200)      
 					TextLabel.TextSize = 14.000      
@@ -2899,9 +2899,9 @@ function library:New(name)
 						Keybind.Position = UDIM2(0, 270, 0.5, -6)      
 						Keybind.Text = "NONE"      
 						Keybind.Size = UDIM2(0, 43, 0, 12)      
-						Keybind.Size = UDIM2(0,txt:GetTextSize("NONE", 14, Enum.Font.RobotoMono, Vec2(700, 12)).X + 5,0, 12)      
+						Keybind.Size = UDIM2(0,txt:GetTextSize("NONE", 14, Enum.Font.GothamBold, Vec2(700, 12)).X + 5,0, 12)      
 						Keybind.AutoButtonColor = false      
-						Keybind.Font = Enum.Font.RobotoMono      
+						Keybind.Font = Enum.Font.GothamBold      
 						Keybind.TextColor3 = COL3RGB(200, 200, 200)      
 						Keybind.TextSize = 14.000      
 						Keybind.AnchorPoint = Vec2(1,0)      
@@ -2941,7 +2941,7 @@ function library:New(name)
 						Hold.Position = UDIM2(-3.03289485, 231, 0.115384616, -6)      
 						Hold.Size = UDIM2(1, 0, 0, 16)      
 						Hold.AutoButtonColor = false      
-						Hold.Font = Enum.Font.RobotoMono      
+						Hold.Font = Enum.Font.GothamBold      
 						Hold.Text = "Hold"      
 						Hold.TextColor3 = COL3RGB(200, 200, 200)      
 						Hold.TextSize = 14.000      
@@ -2955,7 +2955,7 @@ function library:New(name)
 						Toggle.Position = UDIM2(-3.03289485, 231, 0.115384616, -6)      
 						Toggle.Size = UDIM2(1, 0, 0, 16)      
 						Toggle.AutoButtonColor = false      
-						Toggle.Font = Enum.Font.RobotoMono      
+						Toggle.Font = Enum.Font.GothamBold      
 						Toggle.Text = "Toggle"      
 						Toggle.TextColor3 = COL3RGB(200, 200, 200)      
 						Toggle.TextSize = 14.000      
@@ -2975,7 +2975,7 @@ function library:New(name)
 									end      
 									for _,button in pairs(Frame:GetChildren()) do      
 										if button:IsA("TextButton") and button.Text ~= Element.value.Type then      
-											button.Font = Enum.Font.RobotoMono      
+											button.Font = Enum.Font.GothamBold      
 											library:Tween(button, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {TextColor3 = COL3RGB(200,200,200)})      
 										end      
 									end      
@@ -3000,7 +3000,7 @@ function library:New(name)
 								wait()      
 								binding = true      
 								Keybind.Text = "..."      
-								Keybind.Size = UDIM2(0,txt:GetTextSize("...", 14, Enum.Font.RobotoMono, Vec2(700, 12)).X + 4,0, 12)      
+								Keybind.Size = UDIM2(0,txt:GetTextSize("...", 14, Enum.Font.GothamBold, Vec2(700, 12)).X + 4,0, 12)      
 							end      
 						end)      
 						Keybind.MouseButton2Down:Connect(function()      
@@ -3033,11 +3033,11 @@ function library:New(name)
 							if binding then      
 								binding = false      
 								Keybind.Text = input.KeyCode.Name ~= "Unknown" and input.KeyCode.Name:upper() or input.UserInputType.Name:upper()      
-								Keybind.Size = UDIM2(0,txt:GetTextSize(Keybind.Text, 14, Enum.Font.RobotoMono, Vec2(700, 12)).X + 5,0, 12)      
+								Keybind.Size = UDIM2(0,txt:GetTextSize(Keybind.Text, 14, Enum.Font.GothamBold, Vec2(700, 12)).X + 5,0, 12)      
 								Element.value.Key = input.KeyCode.Name ~= "Unknown" and input.KeyCode.Name or input.UserInputType.Name      
 								if input.KeyCode.Name == "Backspace" then      
 									Keybind.Text = "NONE"      
-									Keybind.Size = UDIM2(0,txt:GetTextSize(Keybind.Text, 14, Enum.Font.RobotoMono, Vec2(700, 12)).X + 4,0, 12)      
+									Keybind.Size = UDIM2(0,txt:GetTextSize(Keybind.Text, 14, Enum.Font.GothamBold, Vec2(700, 12)).X + 4,0, 12)      
 									Element.value.Key = nil      
 									Element.value.Active = true      
 								end      
@@ -3163,7 +3163,7 @@ function library:New(name)
 					TextLabel.BackgroundTransparency = 1.000      
 					TextLabel.Position = UDIM2(0, 32, 0, -1)      
 					TextLabel.Size = UDIM2(0.111913361, 208, 1, 0)      
-					TextLabel.Font = Enum.Font.RobotoMono      
+					TextLabel.Font = Enum.Font.GothamBold      
 					TextLabel.Text = text      
 					TextLabel.TextColor3 = COL3RGB(200, 200, 200)      
 					TextLabel.TextSize = 14.000      
@@ -3233,7 +3233,7 @@ function library:New(name)
 					TextLabel.BackgroundTransparency = 1.000      
 					TextLabel.Position = UDIM2(0, 32, 0, -1)      
 					TextLabel.Size = UDIM2(0.111913361, 208, 1, 0)      
-					TextLabel.Font = Enum.Font.RobotoMono      
+					TextLabel.Font = Enum.Font.GothamBold      
 					TextLabel.Text = text      
 					TextLabel.TextColor3 = COL3RGB(200, 200, 200)      
 					TextLabel.TextSize = 14.000      
@@ -3267,7 +3267,7 @@ function library:New(name)
 					ColorP.Position = UDIM2(0, 270, 0.5, -4)      
 					ColorP.Size = UDIM2(0, 18, 0, 8)      
 					ColorP.AutoButtonColor = false      
-					ColorP.Font = Enum.Font.RobotoMono      
+					ColorP.Font = Enum.Font.GothamBold      
 					ColorP.Text = ""      
 					ColorP.TextColor3 = COL3RGB(200, 200, 200)      
 					ColorP.TextSize = 14.000      
@@ -3494,7 +3494,7 @@ function library:New(name)
 					TextLabel.BackgroundTransparency = 1.000      
 					TextLabel.Position = UDIM2(0, 32, 0, -1)      
 					TextLabel.Size = UDIM2(0.111913361, 208, 1, 0)      
-					TextLabel.Font = Enum.Font.RobotoMono      
+					TextLabel.Font = Enum.Font.GothamBold      
 					TextLabel.Text = text      
 					TextLabel.TextColor3 = COL3RGB(200, 200, 200)      
 					TextLabel.TextSize = 14.000      
@@ -3529,7 +3529,7 @@ function library:New(name)
 					ColorP.Position = UDIM2(0, 270, 0.5, -4)      
 					ColorP.Size = UDIM2(0, 18, 0, 8)      
 					ColorP.AutoButtonColor = false      
-					ColorP.Font = Enum.Font.RobotoMono      
+					ColorP.Font = Enum.Font.GothamBold      
 					ColorP.Text = ""      
 					ColorP.TextColor3 = COL3RGB(200, 200, 200)      
 					ColorP.TextSize = 14.000      
@@ -3863,7 +3863,7 @@ function library:New(name)
 					TextLabel.BorderColor3 = COL3RGB(30, 30, 30) 
 					TextLabel.Position = UDIM2(0, 5, 0, 0) 
 					TextLabel.Size = UDIM2(-0.21714285, 208, 1, 0) 
-					TextLabel.Font = Enum.Font.RobotoMono 
+					TextLabel.Font = Enum.Font.GothamBold 
 					TextLabel.Text = Element.value.Dropdown 
 					TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 					TextLabel.TextSize = 14.000 
@@ -3925,7 +3925,7 @@ function library:New(name)
 							TextLabel.BorderColor3 = COL3RGB(30, 30, 30) 
 							TextLabel.Position = UDIM2(0, 5, 0, -1) 
 							TextLabel.Size = UDIM2(-0.21714285, 208, 1, 0) 
-							TextLabel.Font = Enum.Font.RobotoMono 
+							TextLabel.Font = Enum.Font.GothamBold 
 							TextLabel.Text = v 
 							TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 							TextLabel.TextSize = 14.000 
@@ -3970,7 +3970,7 @@ function library:New(name)
 					TextLabel_3.BackgroundTransparency = 1.000 
 					TextLabel_3.Position = UDIM2(0, 32, 0, -1) 
 					TextLabel_3.Size = UDIM2(0.111913361, 208, 0.382215232, 0) 
-					TextLabel_3.Font = Enum.Font.RobotoMono 
+					TextLabel_3.Font = Enum.Font.GothamBold 
 					TextLabel_3.Text = text 
 					TextLabel_3.TextColor3 = COL3RGB(200, 200, 200) 
 					TextLabel_3.TextSize = 14.000 
@@ -4028,7 +4028,7 @@ function library:New(name)
 					TextLabel.BackgroundTransparency = 1.000 
 					TextLabel.Position = UDIM2(0, 32, 0, -2) 
 					TextLabel.Size = UDIM2(0, 100, 0, 15) 
-					TextLabel.Font = Enum.Font.RobotoMono 
+					TextLabel.Font = Enum.Font.GothamBold 
 					TextLabel.Text = text 
 					TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 					TextLabel.TextSize = 14.000 
@@ -4062,7 +4062,7 @@ function library:New(name)
 					Value.BackgroundTransparency = 1.000 
 					Value.Position = UDIM2(0, 150, 0, -1) 
 					Value.Size = UDIM2(0, 55, 0, 15) 
-					Value.Font = Enum.Font.RobotoMono 
+					Value.Font = Enum.Font.GothamBold 
 					Value.Text = "50" 
 					Value.TextColor3 = COL3RGB(200, 200, 200) 
 					Value.TextSize = 14.000 
@@ -4153,7 +4153,7 @@ function library:New(name)
 					TextLabel.BackgroundTransparency = 1.000 
 					TextLabel.BorderColor3 = COL3RGB(30, 30, 30) 
 					TextLabel.Size = UDIM2(1, 0, 1, 0) 
-					TextLabel.Font = Enum.Font.RobotoMono 
+					TextLabel.Font = Enum.Font.GothamBold 
 					TextLabel.Text = text 
 					TextLabel.TextColor3 = COL3RGB(200, 200, 200) 
 					TextLabel.TextSize = 14.000 
